@@ -1,0 +1,130 @@
+body {
+  text-align: center;
+  background-color: lightblue
+
+}
+
+
+.alerts {
+  margin: 3em;
+  
+
+}
+
+
+h1 {
+  color: red;
+  font-size: 50px;
+  height: 50%;
+  width: auto ;
+  background: rgb(0, 123, 255);
+  border-style: double;
+  border-radius: 10em;
+  margin-right: 50px;
+  margin-left: 50px;
+  position: relative;
+ 
+}
+
+
+
+
+#streaming-button {
+  text-align: center;
+  color: blue; 
+  margin-top: 70%;
+  padding: 5em;
+  margin: 1em;
+  font-size:larger;
+  border-color: blue;
+  border-style:inset;
+  padding: 10px;
+}
+
+#streaming-button:active {
+  background-color: lightgoldenrodyellow
+}
+
+
+#stop-streaming {
+  text-align: center;
+  color: blue; 
+  margin-top: 70%;
+  padding: 5em;
+  margin: 1em;
+  font-size:large;
+  border-color: blue;
+  border-style:inset;
+  padding: 10px;
+  display: flex ; 
+}
+
+#left-arrow:active {
+  background-color: yellow
+}
+
+#right-arrow:active {
+  background-color: yellow;
+}
+
+#bell-alert:active {
+  background-color: lightgreen;
+  transform: scale(2);
+}
+
+button {
+  position: relative;
+  height: 50px; 
+  display: inline-block ;
+  border-radius: 30%;
+  border-left: 70%;
+  border-right: 60% ;
+  cursor: pointer; 
+  width: 100px;
+  height: 80px;
+}
+
+
+button:active {
+  transform: translateY(5px) ;
+  box-shadow: 0 5px rgb(221, 31, 10);
+}
+
+img {
+  position: absolute;
+  top: 0; /* top of the button */
+  left: 0; /* left of the button */
+  z-index:1; 
+  height: 45%;
+  padding-left: 10px;
+  
+}
+
+#bicycle {
+  margin-top: 580px;
+  margin-left: 160px;
+  height: 200px;
+  width: 225px;
+  border-radius: 35% ;
+  border-left: 35% ;
+  border-right: 55% ;
+  animation-name: bicyclerace 5s infinite; 
+}
+
+
+#video {
+  margin-left: 2em;
+  position: relative;
+  width: 65%;
+  height: auto;
+  transform: translateX(4px);
+  padding: .5px
+}
+
+
+
+#streaming-group {
+  display: flex;
+
+  
+}

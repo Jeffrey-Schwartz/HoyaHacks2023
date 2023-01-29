@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css" />
+</head>
+<body>
+
+    <main >
+    <h1> Free the Bikers </h1>
+        <div id="streaming-group"> 
+            <video id="video" poster="videosc.png" src="funnyvideodriving.mp4" > </video>
+            <button id="streaming-button" type="submit"> 
+                Live Stream
+            </button> 
+        
+            
+        </div>
+   
+  
+        <div class="container">
+            <form class="alerts">
+            
+                <button  type="submit" id="left-arrow" class="btn" >
+                    <img  src="blueleftarrow.png" alt="leftarrow"/>
+                    <br> Turning Left
+                </button>
+                
+                <button  type="submit" id="right-arrow" class="btn" >
+                    <img src="rightarrow.png" alt="rightarrow" />
+                    <br> Turning Right
+                </button>
+                
+                <button onclick="clickProximity()" type="submit" id="bell-alert" class="btn">
+                    <img  src="bell.png" alt="bell signal" />
+                    <br> Proximity
+                </button>
+              
+            </form>
+        
+            <img class="footer" id="bicycle" src="bicycle.gif" alt="moving bicycle"/>
+        </div>
+    </main>
+
+    
+
+</body>
+
+<script src="main.js">  </script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+
+</html>

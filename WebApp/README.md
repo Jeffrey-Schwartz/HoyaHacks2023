@@ -1,0 +1,1 @@
+# HoyaHacks was my first ever Hackathon experience diving into collaborating with a team of 4 hackers to complete an original project. I was tasked with the front-end development of the project :) I learned a lot of new design features, javascript interactive tools, and how to explain my code while communicating the purpose of the project in front of stakeholders. 
