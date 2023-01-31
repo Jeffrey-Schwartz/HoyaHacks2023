@@ -11,8 +11,8 @@ client = Client(account_sid, auth_token)
 call = client.calls.create(
   url="http://demo.twilio.com/docs/voice.xml",
   
-# For demo purposes I've used my personal number, but this number will be replaced by emergency contact like "911" so the bike riders can get help just in case a accident actually happens. 
-  to="+12673618594",
+# For demo purposes the number called is a fake number (+1-555-5555), but this number will be replaced by emergency contact like "911" so the bike riders can get help just in case a accident actually happens. 
+  to="+15555555",
   
   from_="+18337051333"
 )
